@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: knowledge-assistant-backend
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/knowledge}
+    username: ${DB_USER:app}
+    password: ${DB_PASSWORD:app}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: false
+
+app:
+  ai-service-base-url: ${AI_SERVICE_BASE_URL:http://localhost:8000}
+  # HS256 shared secret for local/standalone JWT validation (>= 32 bytes).
+  # In production set app.jwt-issuer-uri instead to validate against your IdP.
+  jwt-secret: ${JWT_SECRET:local-dev-secret-change-me-please-32bytes-minimum!!}
+  jwt-issuer-uri: ${JWT_ISSUER_URI:}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+logging:
+  level:
+    org.springframework.security: INFO

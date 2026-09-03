@@ -1,0 +1,22 @@
+# Core service
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-multipart>=0.0.9
+
+# RAG orchestration
+langgraph>=0.2
+
+# Model providers (used only when configured)
+openai>=1.40
+anthropic>=0.34
+
+# Vector store (used only when DATABASE_URL is set)
+psycopg[binary]>=3.2
+pgvector>=0.3
+
+# Observability (optional, enabled via OTEL_ENABLED)
+opentelemetry-api>=1.25
+opentelemetry-sdk>=1.25
+opentelemetry-instrumentation-fastapi>=0.46b0
+langsmith>=0.1

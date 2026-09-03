@@ -1,0 +1,28 @@
+Acme Corp Employee Handbook (2026)
+
+Paid Time Off (PTO)
+Full-time employees accrue 20 days of paid time off per calendar year, accrued
+monthly. PTO requests must be submitted at least two weeks in advance and
+approved by your direct manager. Unused PTO rolls over to the next year up to a
+maximum of 5 days; anything above that is forfeited on December 31.
+
+Remote Work
+Employees may work remotely up to 3 days per week. Fully remote arrangements
+require VP approval and a signed remote-work agreement. Core collaboration hours
+are 10am to 3pm in the employee's local time zone.
+
+Expenses and Reimbursement
+Business expenses under $75 do not require receipts. Expenses of $75 or more must
+include an itemized receipt and be submitted through the Expensify portal within
+30 days. Reimbursements are paid on the next payroll cycle after approval.
+
+IT and Security
+All laptops must use full-disk encryption and screens must auto-lock after five
+minutes of inactivity. To reset your password, visit the self-service portal at
+portal.acme.example and follow the prompts. Report any suspected security
+incident to security@acme.example immediately.
+
+Support and Contacts
+The IT help desk is available Monday to Friday, 9am to 6pm, at
+helpdesk@acme.example or extension 4357. Payroll questions should go to
+payroll@acme.example.

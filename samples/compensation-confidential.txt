@@ -1,0 +1,18 @@
+Acme Corp Compensation Bands (CONFIDENTIAL - HR ONLY, 2026)
+
+This document is restricted to HR and executives. Do not distribute.
+
+Salary Bands (annual, USD)
+- L3 Software Engineer: 120,000 to 150,000
+- L4 Senior Engineer: 150,000 to 190,000
+- L5 Staff Engineer: 190,000 to 240,000
+- Engineering Manager: 200,000 to 260,000
+
+Bonus Structure
+Target annual bonus is 15% of base salary for individual contributors and 20%
+for managers, paid in March based on prior-year company and individual
+performance.
+
+Executive Compensation
+The CEO base salary is 1,000,000 with an additional equity grant reviewed
+annually by the board compensation committee.
